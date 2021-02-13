@@ -78,8 +78,7 @@ const SkeletonContent: React.FunctionComponent<ISkeletonContentProps> = ({
             set(
               animationValue,
               loop({
-                duration,
-                easing
+                duration
               })
             )
           ],
@@ -88,8 +87,7 @@ const SkeletonContent: React.FunctionComponent<ISkeletonContentProps> = ({
               animationValue,
               loop({
                 duration: duration! / 2,
-                boomerang: true,
-                easing
+                boomerang: true
               })
             )
           ]
